@@ -23,8 +23,9 @@ The project is evaluated on measured performance rather than qualitative claims:
 
 ---
 
-## Repository Structure
+**## Repository Structure
 *├── src/         # Python & C++ source code (detection, tracking, alert logic)
 *├── cad/         # SolidWorks CAD files (.sldprt, .sldasm) & 3D prints (.stl)
-*├── docs/        # Written notes, weekly logs, and requirements spec
+*├── docs/        # Written notes, logs, and requirements spec
 *└── assets/      # CAD renders, circuit diagrams, and prototype photos
+**

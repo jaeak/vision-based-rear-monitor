@@ -23,9 +23,10 @@ The project is evaluated on measured performance rather than qualitative claims:
 
 ---
 
-**## Repository Structure
-*├── src/         # Python & C++ source code (detection, tracking, alert logic)
-*├── cad/         # SolidWorks CAD files (.sldprt, .sldasm) & 3D prints (.stl)
-*├── docs/        # Written notes, logs, and requirements spec
-*└── assets/      # CAD renders, circuit diagrams, and prototype photos
-**
+## Repository Structure
+```text
+bike-vehicle-detector/
+├── src/         # Python & C++ source code (detection, tracking, alert logic)
+├── cad/         # SolidWorks CAD files (.sldprt, .sldasm) & 3D prints (.stl)
+├── docs/        # Written notes, logs, and requirements spec
+└── assets/      # CAD renders, circuit diagrams, and prototype photos

@@ -6,14 +6,14 @@ An experimental prototype using a Raspberry Pi 5 and a single camera to detect, 
 
 ---
 
-## System Architecture
+## Stack
 * **Hardware:** Raspberry Pi 5, Pi Camera Module, Handlebar LED, Power Bank.
 * **Mounting:** Custom 3D-printed SolidWorks mount with fixed height and tilt.
 * **Software Stack:** Python, OpenCV, NumPy, Pandas, Linux (Bash), C++.
 
 ---
 
-## Project Scope & Metrics
+## Scope/Metrics
 The project is evaluated on measured performance rather than qualitative claims:
 * **Detection Range:** Maximum distance vehicles are reliably detected.
 * **Distance Error:** Difference between estimated vs. actual ground-truth distance.
@@ -24,7 +24,7 @@ The project is evaluated on measured performance rather than qualitative claims:
 ---
 
 ## Repository Structure
-├── src/         # Python & C++ source code (detection, tracking, alert logic)
-├── cad/         # SolidWorks CAD files (.sldprt, .sldasm) & 3D prints (.stl)
-├── docs/        # Written notes, weekly logs, and requirements spec
-└── assets/      # CAD renders, circuit diagrams, and prototype photos
+*├── src/         # Python & C++ source code (detection, tracking, alert logic)
+*├── cad/         # SolidWorks CAD files (.sldprt, .sldasm) & 3D prints (.stl)
+*├── docs/        # Written notes, weekly logs, and requirements spec
+*└── assets/      # CAD renders, circuit diagrams, and prototype photos

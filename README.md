@@ -1,4 +1,4 @@
-# Bike Rear-View Car Detector
+# Vision-Based Rear Monitor
 
 A bike-mounted system that detects cars approaching from behind and warns the rider with an LED and buzzer.
 

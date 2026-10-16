@@ -40,8 +40,8 @@ A Raspberry Pi 5 with a rear-facing camera runs object detection and sends warni
 ### Raspberry Pi
 
 ```bash
-git clone https://github.com/jaeak/bike-car-detector.git
-cd bike-car-detector
+git clone https://github.com/jaeak/vision-based-rear-monitor.git
+cd vision-based-rear-monitor
 pip install -r requirements.txt
 ```
 
@@ -60,13 +60,23 @@ python3 pi/main.py
 ## Project Structure
 
 ```text
-bike-car-detector/
+vision-based-rear-monitor/
 ├── pi/       # Detection and CAN code (Python)
 ├── stm32/    # Alert firmware (C)
 ├── cad/      # SolidWorks mount files
-└── docs/     # Notes and diagrams
+├── docs/     # Devlog, notes, and diagrams
+└── assets/   # Photos, wiring diagrams, demo media
 ```
 
+## Status
+
+🚧 In progress
+
+- [ ] Car detection on the Pi
+- [ ] CAN communication between the Pi and STM32
+- [ ] LED and buzzer alerts
+- [ ] On-bike testing
+- [ ] Custom 3D-printed mount
 
 ## License
 

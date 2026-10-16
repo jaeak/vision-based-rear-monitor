@@ -1,0 +1,7 @@
+.venv/
+--pycache--/
+*.pyc
+*.h264
+*.mp4
+*.jpg
+data/raw/

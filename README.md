@@ -32,7 +32,7 @@ A Raspberry Pi 5 with a rear-facing camera runs object detection and sends warni
 
 ## Software
 
-- **Pi 5:** Python, OpenCV, Picamera2, python-can
+- **Pi 5:** Python, OpenCV, YOLO, Picamera2, python-can
 - **STM32:** C, STM32 HAL, STM32CubeIDE
 
 ## Setup

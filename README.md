@@ -4,7 +4,7 @@ A bike-mounted system that detects cars approaching from behind and warns the ri
 
 A Raspberry Pi 5 with a rear-facing camera runs object detection and sends warnings over a CAN bus to an STM32 microcontroller, which controls the alerts. The two-board design follows how real vehicle electronics are built.
 
-> This is an experimental prototype, not a certified safety device.
+> This is an experimental prototype, not a certified safety device!
 
 ## Features
 
